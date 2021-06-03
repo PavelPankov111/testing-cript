@@ -1,0 +1,39 @@
+#root {
+    width: max-content;
+    margin: auto;
+}
+
+.app {
+    margin: 220px auto auto auto;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    width: 1400px;
+    min-width: 300px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    position: relative;
+}
+
+.app__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 120%;
+    margin-bottom: 0;
+    color: #282828;
+}
+
+.app__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.app__content {
+    width: calc(100% - 440px);
+    margin: auto;
+}

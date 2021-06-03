@@ -1,0 +1,86 @@
+.exchangeForm {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.exchangeForm__inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exchangeForm__submit {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.exchangeForm__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #282828;
+    margin: 32px 82% auto auto;
+}
+
+.exchangeForm__submit-input {
+    width: 723px;
+    height: 50px;
+    outline: none;
+    background: #F6F7F8;
+    border: 1px solid #E3EBEF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.exchangeForm__submit-button {
+    width: 205px;
+    height: 50px;
+    background: #11B3FE;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 120%;
+    color: white;
+    cursor: pointer;
+}
+
+.exchangeForm__submit-button:active {
+    background: #0095E0;
+}
+
+.exchangeForm__submit-error {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #E03F3F;
+    margin-left: 79%;
+    margin-top: 1%;
+}
+
+.exchangeForm__submit-error_hiden {
+    display: none;
+}
