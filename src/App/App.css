@@ -37,3 +37,11 @@
     width: calc(100% - 440px);
     margin: auto;
 }
+
+.button{
+    padding: 0;
+    width: auto;
+    height: auto;
+    outline: none;
+    border: none;
+}
